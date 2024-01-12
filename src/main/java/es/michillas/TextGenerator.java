@@ -4,7 +4,7 @@ public class TextGenerator {
 
     public String line1(char letter) {
         String lineString = null;
-        switch(Character.toLowerCase(letter)) {
+        switch (Character.toLowerCase(letter)) {
             case 'a':
                 lineString = " █████  ";
                 break;
@@ -89,9 +89,10 @@ public class TextGenerator {
         }
         return lineString;
     }
+
     public String line2(char letter) {
         String lineString = null;
-        switch(Character.toLowerCase(letter)) {
+        switch (Character.toLowerCase(letter)) {
             case 'a':
                 lineString = "██   ██ ";
                 break;
@@ -176,9 +177,10 @@ public class TextGenerator {
         }
         return lineString;
     }
+
     public String line3(char letter) {
         String lineString = null;
-        switch(Character.toLowerCase(letter)) {
+        switch (Character.toLowerCase(letter)) {
             case 'a':
                 lineString = "███████ ";
                 break;
@@ -263,9 +265,10 @@ public class TextGenerator {
         }
         return lineString;
     }
+
     public String line4(char letter) {
         String lineString = null;
-        switch(Character.toLowerCase(letter)) {
+        switch (Character.toLowerCase(letter)) {
             case 'a':
                 lineString = "██   ██ ";
                 break;
@@ -350,9 +353,10 @@ public class TextGenerator {
         }
         return lineString;
     }
+
     public String line5(char letter) {
         String lineString = null;
-        switch(Character.toLowerCase(letter)) {
+        switch (Character.toLowerCase(letter)) {
             case 'a':
                 lineString = "██   ██ ";
                 break;
@@ -437,9 +441,10 @@ public class TextGenerator {
         }
         return lineString;
     }
+
     public String line6(char letter) {
         String lineString = null;
-        switch(Character.toLowerCase(letter)) {
+        switch (Character.toLowerCase(letter)) {
             case 'a':
                 lineString = "        ";
                 break;

@@ -5,20 +5,18 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Main {
-    public static void main(String[] args) {
-        String username = "";
+    public static void main(String[] args) throws IOException {
+        
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        try {
-            System.out.println("Enter Text:");
+        System.out.println("Enter Text:");
 
-            // Texto introducido por el usuario
-            username = reader.readLine();
+        // Texto introducido por el usuario
+        String text = reader.readLine();
+        
+        generateText(text);
 
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        generateText(username);
     }
+
     public static void generateText(String text) {
         TextGenerator textGenerator = new TextGenerator();
 
