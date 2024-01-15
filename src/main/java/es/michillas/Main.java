@@ -23,26 +23,26 @@ public class Main {
         for (char letter : text.toCharArray()) {
             System.out.print(textGenerator.line1(letter));
         }
-        System.out.println("");
+        System.out.println();
         for (char letter : text.toCharArray()) {
             System.out.print(textGenerator.line2(letter));
         }
-        System.out.println("");
+        System.out.println();
         for (char letter : text.toCharArray()) {
             System.out.print(textGenerator.line3(letter));
         }
-        System.out.println("");
+        System.out.println();
         for (char letter : text.toCharArray()) {
             System.out.print(textGenerator.line4(letter));
         }
-        System.out.println("");
+        System.out.println();
         for (char letter : text.toCharArray()) {
             System.out.print(textGenerator.line5(letter));
         }
-        System.out.println("");
+        System.out.println();
         for (char letter : text.toCharArray()) {
             System.out.print(textGenerator.line6(letter));
         }
-        System.out.println("");
+        System.out.println();
     }
 }
