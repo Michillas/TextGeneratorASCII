@@ -1,7 +1,6 @@
 package es.michillas;
 
 public class TextGenerator {
-
     
     public void generateText(String text) {
 
