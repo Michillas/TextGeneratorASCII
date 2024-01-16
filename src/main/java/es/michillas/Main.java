@@ -12,37 +12,10 @@ public class Main {
 
         // Texto introducido por el usuario
         String text = reader.readLine();
-        
-        generateText(text);
 
-    }
-
-    public static void generateText(String text) {
         TextGenerator textGenerator = new TextGenerator();
+        
+        textGenerator.generateText(text);
 
-        for (char letter : text.toCharArray()) {
-            System.out.print(textGenerator.line1(letter));
-        }
-        System.out.println();
-        for (char letter : text.toCharArray()) {
-            System.out.print(textGenerator.line2(letter));
-        }
-        System.out.println();
-        for (char letter : text.toCharArray()) {
-            System.out.print(textGenerator.line3(letter));
-        }
-        System.out.println();
-        for (char letter : text.toCharArray()) {
-            System.out.print(textGenerator.line4(letter));
-        }
-        System.out.println();
-        for (char letter : text.toCharArray()) {
-            System.out.print(textGenerator.line5(letter));
-        }
-        System.out.println();
-        for (char letter : text.toCharArray()) {
-            System.out.print(textGenerator.line6(letter));
-        }
-        System.out.println();
     }
 }

@@ -2,6 +2,35 @@ package es.michillas;
 
 public class TextGenerator {
 
+    
+    public void generateText(String text) {
+
+        for (char letter : text.toCharArray()) {
+            System.out.print(line1(letter));
+        }
+        System.out.println();
+        for (char letter : text.toCharArray()) {
+            System.out.print(line2(letter));
+        }
+        System.out.println();
+        for (char letter : text.toCharArray()) {
+            System.out.print(line3(letter));
+        }
+        System.out.println();
+        for (char letter : text.toCharArray()) {
+            System.out.print(line4(letter));
+        }
+        System.out.println();
+        for (char letter : text.toCharArray()) {
+            System.out.print(line5(letter));
+        }
+        System.out.println();
+        for (char letter : text.toCharArray()) {
+            System.out.print(line6(letter));
+        }
+        System.out.println();
+    }
+
     public String line1(char letter) {
         String lineString = null;
         switch (Character.toLowerCase(letter)) {
